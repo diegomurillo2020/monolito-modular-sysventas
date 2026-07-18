@@ -1,0 +1,15 @@
+# Dependencias y compilación
+node_modules/
+dist/
+/npm-debug.log*
+
+# Docker local
+.docker/
+
+# Variables de entorno secretas (¡nunca las subas!)
+.env
+.env.production
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
